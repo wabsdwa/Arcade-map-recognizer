@@ -17,7 +17,7 @@ Ai that can recognize arcade maps(Pacman, Galaga and Donkey Kong)
   
   3. Put model_best.pth.tar and resnet18.onnx in jetson-inference/python/training/classification/models/arcade_maps
 
-  4.Set the variables as NET=models/arcade_maps and DATASE=data/arcade_maps in the terminal
+  4.Set the variables as `NET=models/arcade_maps` and `DATABASE=data/arcade_maps` in the terminal
 
   5.Open your terminal and type in `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/~/~.jpg arcade.jpg`
 In the first ~ type in one of the three games, the games being donkey_kong, pacman, or galaga, and in the second ~ type in the name of the jpg.  If you would like to add your own screnshot of one of the games, add it in the test file of the data folder.
