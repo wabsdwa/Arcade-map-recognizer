@@ -1,6 +1,9 @@
 # Arcade-map-recognizer
 Ai that can recognize arcade maps(Pacman, Galaga and Donkey Kong)
 
+## Download Model Here:
+https://drive.google.com/drive/folders/1nGSUHf7eu91Z2qjBtZs05_a4g67G6UAm?usp=sharing  
+
 ## How it works
 
   The program works with image recognition in the jetson interface library. You can see the code there. The pretrained models didn't have classes for arcade games,  so I identified new ones for them. I used the reclassification notebook on google colab to train the model of arcade images I found online. This program can be used for new comers for arcade games to help them idetentify which arcade games are which.
